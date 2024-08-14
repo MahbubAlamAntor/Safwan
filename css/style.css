@@ -95,6 +95,9 @@ body{
 /* header section style end */
 
 /* my services style started */
+.shadow{
+    box-shadow: 8px 20px 8px 3px rgba(147, 147, 147, 0.13);
+}
 .services-title h4{
     padding-top: 8rem;
     color: #E5745D;
@@ -105,5 +108,14 @@ body{
     color: #00413D;
     font-size:3.2rem;
     max-width: 40%;
+}
+
+.arrow-size{
+    font-size: 2rem;
+    color: #00413D;
+}
+.arrow-size-1{
+    font-size: 2rem;
+    color: #E5745D;
 }
 /* my services style end */

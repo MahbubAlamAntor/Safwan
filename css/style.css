@@ -110,14 +110,15 @@ body{
     max-width: 40%;
 }
 
-.arrow-size{
-    font-size: 2rem;
-    color: #00413D;
+.arrow-hover{
+  font-size: 28px;
 }
-.arrow-size-1{
-    font-size: 2rem;
-    color: #E5745D;
+.arrow-hover:hover{
+  color: #E5745D;
+  padding-left: 50px;
+  transition: 0.8s;
 }
+
 
 .services-container{
     position: relative;
@@ -311,6 +312,18 @@ body{
 /* circle progress bar end */
 
 
+.my-projects .card-body {
+  position: relative;
+  margin-bottom: 5px !important;
+}
+
+a.btn.btn-primary.mb-3.mr-1 {
+  background: transparent;
+  color: black;
+} 
+span.project-card-small-title {
+  color: red;
+}
 /* card slider style start */
 
 .carousel .my-project-icon-content{
@@ -370,3 +383,72 @@ body{
     font-weight: 500;
 }
 /* card slider style end */
+
+
+/* footer style started */
+
+
+
+footer{
+  background-color: #00413D;
+  padding: 80px 0 30px 0;
+}
+
+.main-container hr{
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-p{
+  color: rgba(255, 255, 255, .7);
+  text-align: center;
+  font-size: .9rem;
+  padding-top: 2rem;
+}
+.footer-logo{
+  text-align: center;
+}
+
+.contact-section{
+  width:50%;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+.contact-section ul{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section ul li{
+  font-size: 1.1rem;
+  color: white;
+  list-style: none;
+  font-weight: 500;
+}
+
+.footer-home{
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  padding-right: 2rem;
+}
+
+.footer-img{
+  display: flex;
+  gap: 2rem;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 3.2rem 0 4rem 0;
+}
+
+.footer-skype{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #E5745D;
+  padding:15px;
+}
+/* .footer-skype{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #E5745D;
+  padding: 8px;
+} */
+/* footer style end */
